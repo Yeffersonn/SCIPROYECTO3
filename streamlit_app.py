@@ -13,8 +13,8 @@ import contextlib
 st.write(f"TensorFlow version: {tf.__version__}")
 # Descargar y descomprimir el modelo si no existe
 def download_and_extract_model():
-    model_url = 'https://dl.dropboxusercontent.com/s/5p272a9n3sammghelkqdt/mejorpuntaje.zip?rlkey=cr6iw7jcziskn7t34uj7yjt6u&st=kb2h0e71'
-    zip_path = 'mejorpuntaje.zip'
+    model_url = 'https://dl.dropboxusercontent.com/s/lxb3qm5cdpa9ake5z4q9t/best_model_local.zip?rlkey=z56wewjj51qxk6djzfihi4aq1&st=04u131mj'
+    zip_path = 'best_model.zip'
     extract_folder = 'extracted_files'
 
     # Descargar el archivo zip si no existe
